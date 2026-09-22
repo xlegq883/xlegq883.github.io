@@ -48,7 +48,6 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/xlegq883 || Github || '#24292e'
-  fas fa-envelope: mailto:xlegq883@example.com || Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
