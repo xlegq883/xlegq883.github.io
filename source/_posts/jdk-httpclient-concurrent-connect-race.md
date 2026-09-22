@@ -174,3 +174,7 @@ HttpClient.newBuilder()
 - [OpenJDK `PlainHttpConnection.java`（jdk17u）](https://github.com/openjdk/jdk17u/blob/master/src/java.net.http/share/classes/jdk/internal/net/http/PlainHttpConnection.java)
 - [Java's HttpClient doesn't resolve localhost to IPv6 — tanin](https://tanin.nanakorn.com/javas-httpclient-doesnt-resolve-localhost-to-ipv6/)
 - [OpenJDK PR #7776（8254786：CancelRequestTest 间歇性 ClosedChannelException）](https://github.com/openjdk/jdk/pull/7776)
+
+---
+
+> 下篇：[深入 JDK HttpClient：连接建立、连接池与关闭路径上的竞态]({% post_link jdk-httpclient-connection-lifecycle-races %}) —— 从源码层面拆解 `connect` / `pool` / `close` 三处的竞态。
