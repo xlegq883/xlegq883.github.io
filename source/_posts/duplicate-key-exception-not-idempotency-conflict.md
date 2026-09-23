@@ -283,7 +283,7 @@ if (ex.getMessage().contains("uk_order_no")) { ... }
 本文是这个系列的第 1 篇。后续两篇：
 
 - **2/3** [《差点踩中事务回滚陷阱：`@Transactional` + `catch` + 重试引发的 `UnexpectedRollbackException`》]({% post_link transactional-catch-retry-unexpected-rollback %})
-- **3/3**《单机压测复盘：`QPS ≈ 并发 / 平均延迟`，以及连接池到底该不该扩》
+- **3/3** [《单机压测复盘：`QPS ≈ 并发 / 平均延迟`，以及连接池到底该不该扩》]({% post_link single-machine-loadtest-littles-law-connection-pool %})
 
 ## 十、附：复现说明（JMeter 关键配置）
 

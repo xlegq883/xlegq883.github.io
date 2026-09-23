@@ -267,8 +267,8 @@ mvn "-Dfile.encoding=UTF-8" -Dtest=TransactionRollbackOnlyExperimentTest test
 
 ## 十一、系列预告
 
-- 上篇（1/3）：《5000 个请求里的 2 个 409：`DuplicateKeyException` 不等于幂等冲突》
-- 下篇（3/3）：《单机压测复盘：`QPS ≈ 并发 / 平均延迟`，以及连接池到底该不该扩》
+- 上篇（1/3）：[《5000 个请求里的 2 个 409：`DuplicateKeyException` 不等于幂等冲突》]({% post_link duplicate-key-exception-not-idempotency-conflict %})
+- 下篇（3/3）：[《单机压测复盘：`QPS ≈ 并发 / 平均延迟`，以及连接池到底该不该扩》]({% post_link single-machine-loadtest-littles-law-connection-pool %})
 
 ## 参考
 
